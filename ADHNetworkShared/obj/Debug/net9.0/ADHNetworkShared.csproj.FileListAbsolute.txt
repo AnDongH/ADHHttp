@@ -1,0 +1,12 @@
+/Users/fblood53/Projects/private/httpserver/ADHNetworkShared/bin/Debug/net9.0/ADHNetworkShared.deps.json
+/Users/fblood53/Projects/private/httpserver/ADHNetworkShared/bin/Debug/net9.0/ADHNetworkShared.dll
+/Users/fblood53/Projects/private/httpserver/ADHNetworkShared/bin/Debug/net9.0/ADHNetworkShared.pdb
+/Users/fblood53/Projects/private/httpserver/ADHNetworkShared/obj/Debug/net9.0/ADHNetworkShared.csproj.AssemblyReference.cache
+/Users/fblood53/Projects/private/httpserver/ADHNetworkShared/obj/Debug/net9.0/ADHNetworkShared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fblood53/Projects/private/httpserver/ADHNetworkShared/obj/Debug/net9.0/ADHNetworkShared.AssemblyInfoInputs.cache
+/Users/fblood53/Projects/private/httpserver/ADHNetworkShared/obj/Debug/net9.0/ADHNetworkShared.AssemblyInfo.cs
+/Users/fblood53/Projects/private/httpserver/ADHNetworkShared/obj/Debug/net9.0/ADHNetworkShared.csproj.CoreCompileInputs.cache
+/Users/fblood53/Projects/private/httpserver/ADHNetworkShared/obj/Debug/net9.0/ADHNetworkShared.dll
+/Users/fblood53/Projects/private/httpserver/ADHNetworkShared/obj/Debug/net9.0/refint/ADHNetworkShared.dll
+/Users/fblood53/Projects/private/httpserver/ADHNetworkShared/obj/Debug/net9.0/ADHNetworkShared.pdb
+/Users/fblood53/Projects/private/httpserver/ADHNetworkShared/obj/Debug/net9.0/ref/ADHNetworkShared.dll

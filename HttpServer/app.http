@@ -1,0 +1,65 @@
+@HostAddress = http://10.0.2.77:7777
+
+###
+
+Post {{HostAddress}}/noneAuth/login
+Content-Type: application/json
+
+{
+  "ID":"test",
+  "PW":"12345!"
+}
+
+###
+
+Post {{HostAddress}}/logout
+Content-Type: application/json
+
+{
+  "UserID": 1052085185662006832
+  "AuthToken": qezgi1epgc5l4ckn7ji22axvr
+}
+
+###
+
+POST {{HostAddress}}/attendanceInfo
+Content-Type: application/json
+
+{
+    
+}
+
+###
+
+POST {{HostAddress}}/account/delete
+UserID: 1052085185662006832
+AuthToken: qezgi1epgc5l4ckn7ji22axvr
+Content-Type: application/json
+
+{
+    "PW":"12345!" 
+}
+
+###
+
+POST {{HostAddress}}/noneAuth/account/create
+Content-Type: application/json
+
+{
+    "ID":"test2",
+    "PW":"12345!" 
+}
+
+###
+
+// 헤더로 캐쉬한건 인증 실패하면 못오는듯?
+GET {{HostAddress}}/noneAuth/cache
+
+###
+
+GET {{HostAddress}}/noneAuth/byteTest
+Accept: application/octet-stream
+###
+
+GET {{HostAddress}}/noneAuth/responseDirectTest
+Accept: application/octet-stream

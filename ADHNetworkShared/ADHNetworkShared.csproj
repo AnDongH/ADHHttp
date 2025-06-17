@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Nullable>disable</Nullable>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BouncyCastle.Cryptography" Version="2.4.0" />
+    <PackageReference Include="MemoryPack" Version="1.21.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.1" />
+    <PackageReference Include="MySqlConnector" Version="2.4.0" />
+  </ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<!-- Ubuntu 환경 -->
+		<!-- <Exec Command="cp -r $(ProjectDir)Shared &quot;/mnt/c/Users/0423ADH/ADHNetwork Unity Package/Assets/ADHNetwork-Unity-Package/Runtime/Plugins&quot;" Condition="'$(OS)' != 'Windows_NT'" />-->
+	</Target>
+
+
+</Project>
